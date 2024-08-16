@@ -6,6 +6,7 @@ https://github.com/internlm/mindsearch           --shayd kaam aye prompt descrip
 
 https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data/playground/apiendpoint_4c069629-23df-4946-aab8-a1cb41ba7862
 
+https://huggingface.co/spaces/zhengchong/CatVTON/tree/main
 
 # Use a pipeline as a high-level helper
 from transformers import pipeline
