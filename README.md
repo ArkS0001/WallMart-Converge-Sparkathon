@@ -11,3 +11,12 @@ https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-amazon-data/playground/
 from transformers import pipeline
 
 pipe = pipeline("text-generation", model="meta-llama/Meta-Llama-3.1-405B")
+
+
+
+
+# Load model directly
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-405B")
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Meta-Llama-3.1-405B")
